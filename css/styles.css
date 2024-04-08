@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000000, #FFFFFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+body h1{font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;}
+
+    
+.lyrics {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.lyrics span {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 24px;
+    color: #000000;
+    opacity: 0;
+    animation: spotlight 8s infinite;
+}
+
+@keyframes spotlight {
+    0%, 50% {
+        opacity: 0;
+    }
+    51%, 100% {
+        opacity: 1;
+    }
+}
+
+  
