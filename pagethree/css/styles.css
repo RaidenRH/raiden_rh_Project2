@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Rock Salt", cursive;
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+p {font-family:"Rock Salt", cursive;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+color: #FFFFFF;
+padding-left: 20pt; }
+
+@keyframes fadeIn {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.one{font-variation-settings: 'wght' 20, 'wdth'70;
+    transition: all .5s;
+    transition-duration: 0.3s;
+    animation-name:slideinleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    }
+    
+    .one:hover{font-variation-settings: 'wght' 50, 'wdth' 120;
+    color:#c0b106;
+    }
+
+    @keyframes slideinleft {
+        from{
+            transform: translateX(-300px);color: #ffffff;
+        }
+    
+        to{
+            transform: translateX(0);color: #c0b106;
+    } 
+        }
+
+        .two{font-variation-settings: 'wght' 20, 'wdth'70;
+            transition: all .2s;
+            transition-duration: 0.4s;
+            animation-name:slideinleft;
+            animation-duration: 3s;
+            animation-timing-function: ease-in;
+            animation-delay: 1s;}
+        
+            .two:hover{font-variation-settings: 'wght' 50, 'wdth' 120;
+                color:#c0b106;}
+    
+                
+                @keyframes slideinleft{from{
+                        transform: translateX(-300px);color: #ffffff;
+                    }
+                
+                    to{
+                        transform: translateX(0);color: #c0b106;
+    
+    
+    
+    
+    
+                }
+                    
+                } 
+                .three{font-variation-settings: 'wght' 20, 'wdth'70;
+                    transition: all .2s;
+                    transition-duration: 0.4s;
+                    animation-name:slideinleft;
+                    animation-duration: 4s;
+                    animation-timing-function: ease-in;
+                    animation-delay: 1s;}
+    
+                    .three:hover{font-variation-settings: 'wght' 50, 'wdth' 120;
+                        color:#c0b106;}
+
+                        
+                        
+                        .four {font-variation-settings: 'wght' 20, 'wdth'70;
+                            font-size: 50pt;
+                            transition: all .2s;
+                            transition-duration: 0.4s;
+                            animation-name:fade;
+                        animation-delay: -2s;
+                        animation-direction: normal;
+                        animation-duration: 2s;
+                        animation-iteration-count:infinite;
+                        animation-play-state:initial;
+                        animation-timing-function: ease-in-out;
+                        text-decoration: none;
+                        
+                        }
+                        
+                        .four :hover {font-variation-settings: 'wght' 50, 'wdth' 120;
+                            color:#c0b106;}
+                        
+                            @keyframes fade {
+                            0% {color: #000000;}
+                            50% {color: #c0b106;
+                                opacity: 25%;}
+                            51%, 100% 
+                            {opacity: 1;}
+                        }
